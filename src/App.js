@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Terminal, Shield, CheckCircle, XCircle, Code, Play, Settings, Cpu, HardDrive, Lock } from 'lucide-react';
-
+import { Terminal, Shield, CheckCircle, Code, Play, Settings, Cpu, HardDrive, Lock } from 'lucide-react';
 const App = () => {
   const [step, setStep] = useState(0);
   const [logs, setLogs] = useState([]);
